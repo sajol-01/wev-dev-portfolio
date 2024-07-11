@@ -7,8 +7,14 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-/* shared styles */
+/* BACKGROUNDS */
+.secondary-background{
+    background-color: #FFF8F3;
+    .third-background{
+        background-color: #FFFFFF;
+    }
+}
+/* SHARED STYLES */
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -29,6 +35,12 @@
 }
 .text-primary{
     color: #FD6E0A
+}
+/* MAIN */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
 }
 /* Header */
 .header{
@@ -84,4 +96,72 @@ nav ul li a{
 }
 .banner-content{
     max-width: 580px;
+}
+/* SECTION STYLES */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.banner-descriptions{
+    font-size: 18px;
+    font-weight: regular;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    padding: 130px 150px;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+.section-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.item-descriptions{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-title{
+    margin-bottom: none;
+}
+/* What I do Section */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill-description{
+    font-size: 18px;
+    font-weight: regular;
+    text-align: center;
+    padding: 0px 145px;
+
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.skill-details{
+    font-size: 16px;
+    font-weight: regular;
+    
+}
+/* Skill Items */
+.skill-items{
+    display: flex;
+    
+    gap: 25px;
+    
+}
+.skill-item{
+    padding: 50px 30px 33px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
 }
